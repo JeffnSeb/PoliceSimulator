@@ -1,0 +1,9 @@
+header {
+    background-color: #222222;
+}
+
+.homeScreenLink {
+    background-image: url(.images/logo.png);
+    background: no-repeat;
+
+}
