@@ -3,7 +3,12 @@ header {
 }
 
 .homeScreenLink {
-    background-image: url(.images/logo.png);
-    background: no-repeat;
+    background: no-repeat url("./images/logo.png");
+    background-size: contain;
+    height: 90px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 
 }
