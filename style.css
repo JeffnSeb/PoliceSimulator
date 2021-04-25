@@ -1,14 +1,66 @@
-header {
-    background-color: #222222;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
 }
-
+.topBar {
+    background-color: #222222;
+    height: 80px;
+    width: 75%;
+    margin-left: 83px;
+    border-bottom: 1px solid rgb(100, 100, 100);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.flex {
+    width: 25%;
+    /* margin: 0 auto; */
+}
+.box1 {
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    /* text-align: center; */
+}
+.box2 {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.box3 {
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
 .homeScreenLink {
     background: no-repeat url("./images/logo.png");
     background-size: contain;
     height: 90px;
-    width: 100px;
+    width: 30px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+}
+.squareHolder {
+    background-color: #222222; 
+    height: 80px;
+    width: 83px;
     position: absolute;
     top: 0px;
     left: 0px;
-
+    border-right: 1px solid rgb(100, 100, 100);
+    border-bottom: 1px solid rgb(100, 100, 100);
 }
