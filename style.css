@@ -1,3 +1,4 @@
+/* General Styles */
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +9,11 @@
     background: transparent;
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+}
+
+/* Header Styles */
 .topBar {
     background-color: #222222;
     height: 80px;
@@ -17,28 +23,22 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: space-between;
 }
 .flex {
     width: 25%;
     /* margin: 0 auto; */
 }
 .box1 {
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    /* text-align: center; */
+    text-align: center;
 }
 .box2 {
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
-.box3 {
-    background-color: purple;
+    /* background-color: red; */
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -64,3 +64,22 @@
     border-right: 1px solid rgb(100, 100, 100);
     border-bottom: 1px solid rgb(100, 100, 100);
 }
+.homeImage {
+    color: wheat;
+}
+.getInTouch {
+    color: wheat;
+}
+.homeImage:before {
+    content: '';
+    position: absolute;
+    left: 117px;
+    top: 41px;
+    width: 30px;
+    height: 1px;
+    background: #F9BF26;
+}
+.fa-envelope {
+    color: #F9BF26;
+}
+/* Main Styles */
