@@ -98,4 +98,28 @@ a {
     flex-wrap: nowrap;
 
 }
+
+.backGroundBox {
+    position: absolute;
+    top: 23px;
+    right: 142px;
+    background: rgba(255, 255, 255, 0.081);
+    width: 65px;
+    height: 35px;
+    transition: all 0.5s ease;
+}
+
+.backGroundBox:hover {
+    width: 100px;
+    transition: all 0.5s ease;
+
+}
+
+
+
 /* Main Styles */
+
+.carousel1 {
+    background: #222;
+    height: 100%;
+}
